@@ -221,3 +221,27 @@
 .tl-c {
 	margin-top: 3rem;
 }
+
+/* MEMORY AID */
+
+#m-a {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #000;
+	z-index: 100000;
+	text-align: center;
+	padding: 1rem;
+}
+
+#m-a h2 {
+	color: #fff;
+	font-size: 3rem;
+	letter-spacing: 5px;
+}
+
+#m-a img {
+	height: 80%;
+}

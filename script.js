@@ -21,5 +21,13 @@ $("body").keydown(function() {
     case 72: showImg(15); break;
     case 74: showImg(16); break;
     case 75: showImg(17); break;
+
+    case 77: showImg(18); break;
+    case 78: showImg(19); break;
+    case 66: showImg(20); break;
+    
+    case 88: $("#m-a").fadeOut(2000); break;
+    case 67: $("#twmap").attr("src", "images/d_taiwanfreearea.png"); break;
+    case 86: $("#twmap").attr("src", "images/rocfull.png"); break;
   }
 })
